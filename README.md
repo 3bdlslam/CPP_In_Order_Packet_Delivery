@@ -14,10 +14,10 @@ Dropped packets IDs: represented as array of integer
 ![image](https://user-images.githubusercontent.com/68570192/146442852-e39f1e21-8f50-44a8-83cc-e5c3710b328a.png)
 
 ## 4.	Code Snippets  
-'''int R_Backets[1000];				// array for the received packet IDs
+""" int R_Backets[1000];				// array for the received packet IDs
 st_queue<int> OOO_Backets[2];		// define 2 queues to represent the waiting list
 // at any time one of them stores OOO Packets between [expected and maximum]
 // the other will stores OOO Packets starts from (0)
 int* D_Backets=new int[argn];		// array for the dropped data
 
-'''
+"""
